@@ -18,11 +18,13 @@
 
 3. 관련있는 Label를 추가합니다.
 
+4. 템플릿에 맞게 내용을 작성 후 제출해주세요.
+
 ### Pull Request 제출하기
 
 당신의 Pull Request를 제출하기 전에 다음 사항을 따라주세요:
 
-1. 이미 존재하는 Issue를 해결할 수 있는 것인지 확인해주세요. 없는 경우 Issue를 만들어주세요.
+1. 이미 존재하는 Issue를 해결할 수 있는 것인지 확인해주세요. 없는 경우 먼저 Issue를 만들어주세요.
 
 2. 해결할 수 있으면 Fork / Clone 후 다음과 같이 Branch를 만들어주세요:
 
@@ -67,7 +69,7 @@
 
 **제목**은 필수적이며, [Commit Message Header](#commit-header) 형식을 준수해야 합니다.
 
-**본문**은 "docs" 유형의 커밋을 제외한 모든 커밋에 대해 필수 사항입니다. 본문이 있는 경우 본문은 20자 이상이어야 하며 [Commit Message Body](#commit-body) 형식을 준수해야 합니다.
+**본문**은 "docs" 유형의 커밋을 제외한 모든 커밋에 대해 필수 사항이며, [Commit Message Body](#commit-body) 형식을 준수해야 합니다.
 
 **꼬릿말**은 선택적이며, [Commit Message Footer](#commit-footer) 형식을 준수해야 합니다.
 
@@ -135,10 +137,10 @@ Related to: #1
 
 ## <a name="merge-commit"></a> Github PR Merge Commit Message Convention
 
-Pull Request를 하는 경우 커밋 메세지에 다음와 같이 작성합니다.
+Pull Request를 하는 경우 커밋 메시지에 다음와 같이 작성합니다.
 
 ```
-fix #<issue number>
+Fix #<issue number>
 PR Close #<PR number>
 ```
 
