@@ -1,6 +1,6 @@
 ### Linked Issue
 
-fixed #
+close #
 
 ### 설명
 
